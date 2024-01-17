@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const Stripe = require('stripe')('sk_test_51KtYRUD3HS4vNAwa7ANL32HQqRTywhV3JHWIp3BxAIHv04bWoz22aKlRs9Q1L6znSX2i5fu5i3Xkl9i2Goz7jAkC00LL0T3lTL');
+const Stripe = require('stripe')('pk_test_51OZci3LupV38LXQfPVHqnhIhLgGFbdO8tQMvC038z77eqpWyksviIRuRlLJtoTuSIcFiH2YxRxyj58l3gdKLjjo300fNPK7OpA');
 
 router.post('/', async (req, res) => { console.log(req.body)
     let status, error;
